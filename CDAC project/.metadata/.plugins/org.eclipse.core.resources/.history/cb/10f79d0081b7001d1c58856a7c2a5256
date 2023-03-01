@@ -1,0 +1,21 @@
+package com.example.demo.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.entities.Counsellor;
+import com.example.demo.services.CounsellorService;
+
+@RestController
+public class CounsellorController {
+
+	@Autowired
+	CounsellorService cservice;
+	
+	public Counsellor regCounsellor()
+	{
+		return c
+	}
+	
+	
+}

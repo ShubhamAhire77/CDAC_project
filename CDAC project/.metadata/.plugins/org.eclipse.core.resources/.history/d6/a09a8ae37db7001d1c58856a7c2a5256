@@ -1,0 +1,23 @@
+package com.example.demo.entities;
+
+public class CounsellorRegister {
+	
+	/*fname: "",
+    mname: "",
+    lname: "",
+    email_id: "",
+    password: "",
+    contact: "",
+    city: 0,
+    area: 0,
+    address_line: "",
+    gender: "",
+    specialization: "",
+    experience: 0,
+    */
+	
+	private String fname,mname,lname , email_id , password , contact , city , area , address_line , specialization;
+	
+	private int experience;
+
+}

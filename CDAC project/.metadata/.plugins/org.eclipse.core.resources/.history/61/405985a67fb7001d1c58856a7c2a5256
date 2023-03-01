@@ -1,0 +1,48 @@
+package com.example.demo.entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "counsellor")
+public class Counsellor {
+
+	// counsellor_id, fname, mname, lname, contact, address_line, area_id, gender,
+	// specialization, experience, login_id
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int counsellor_id;
+
+	@Column
+	private String fname;
+	@Column
+	private String mname;
+	@Column
+	private String lname;
+	@Column
+	private String contact;
+	@Column
+	private String address_line;
+	@ManyToOne
+	@JoinColumn(name = "area_id")
+	private Area area_id;
+
+	private String gender;
+
+	@Column
+	private String specialization;
+	@Column
+	private int experience;
+	@OneToOne
+	@JoinColumn(name = "login_id")
+	private Login login_id;
+
+}

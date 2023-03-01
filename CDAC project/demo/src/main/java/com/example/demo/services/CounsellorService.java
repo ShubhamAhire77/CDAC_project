@@ -1,0 +1,20 @@
+package com.example.demo.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.entities.Counsellor;
+import com.example.demo.repositories.CounsellorRepository;
+
+@Service
+public class CounsellorService {
+	
+	@Autowired
+	CounsellorRepository crepo;
+	
+	public Counsellor registerCounsellor(Counsellor d)
+	{
+		return crepo.save(d);
+	}
+	
+}

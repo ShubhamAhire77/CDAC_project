@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.example.demo.repositories.RoleRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.repositories.SecurityQuestionRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.repositories.LoginRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.LoginCheck"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.EnableAutoConfiguration"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="com.example.demo.repositories.CityRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
+    <fullyQualifiedTypeName name="com.example.demo.services.CityService"/>
+    <fullyQualifiedTypeName name="com.example.demo.repositories.AreaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.City"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.example.demo.repositories.CounsellorRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.services.CounsellorService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.CounsellorRegister"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.Login"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.Role"/>
+    <fullyQualifiedTypeName name="com.example.demo.services.RoleService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="com.example.demo.services.SecurityService"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.SecurityQuestion"/>
+    <fullyQualifiedTypeName name="com.example.demo.services.AreaService"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.Area"/>
+    <fullyQualifiedTypeName name="com.example.demo.services.LoginService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.Counsellor"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+</qualifiedTypeNameHistroy>

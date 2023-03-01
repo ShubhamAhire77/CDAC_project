@@ -1,0 +1,20 @@
+package com.example.demo.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="areas")
+public class Area {
+	
+	private int area_id;
+	
+	private String area_name;
+	
+	@ManyToOne
+	@JoinColumn(name = "city_id")
+	private City city_id;
+
+}
